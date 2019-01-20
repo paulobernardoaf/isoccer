@@ -38,14 +38,18 @@ public class Sistema {
         while(true) {
 
             System.out.println("Escolha uma opção:\n" +
+                    "(0) - Sair\n" +
                     "(1) - Adicionar Funcionário\n" +
                     "(2) - Listar Funcionários\n" +
                     "(3) - Adicionar Sócio-Torcedor\n" +
-                    "(4) - Listar todos os Sócio-Torcedores");
+                    "(4) - Listar todos os Sócio-Torcedores\n" +
+                    "(5) - Atualizar valores de contribuição\n");
 
             String opcao = scanner.nextLine();
 
             switch (opcao) {
+                case "0":
+                    return;
                 case "1":
                     registrarFuncionario();
                     break;
@@ -57,6 +61,10 @@ public class Sistema {
                     break;
                 case "4":
                     listarSocioTorcedores();
+                    break;
+                case "5":
+                    atualizarContribuicao();
+                    break;
                 default:
                     System.out.println("Digite uma escolha válida.");
             }
@@ -159,9 +167,6 @@ public class Sistema {
         String telefone = scanner.nextLine();
         System.out.println("Digite o endereco do Sócio-Torcedor: ");
         String endereco = scanner.nextLine();
-        System.out.println("Digite o valor de contribuição do Sócio-Torcedor: ");
-        double contribuicao = scanner.nextDouble();
-        scanner.nextLine();
         System.out.println("O Sócio-Torcedor está adimplente ou inadimplente? \n" +
                 "(1) - Adimplente\n" +
                 "(2) - Inadimplente");
@@ -180,15 +185,15 @@ public class Sistema {
             String tipo = scanner.nextLine();
             switch (tipo) {
                 case "1":
-                    SocioJunior novoSocioJunior = new SocioJunior(nome, email, cpf, telefone, endereco, contribuicao, estado);
+                    SocioJunior novoSocioJunior = new SocioJunior(nome, email, cpf, telefone, endereco, estado);
                     this.getSocios().add(novoSocioJunior);
                     break loop;
                 case "2":
-                    SocioSenior novoSocioSenior = new SocioSenior(nome, email, cpf, telefone, endereco, contribuicao, estado);
+                    SocioSenior novoSocioSenior = new SocioSenior(nome, email, cpf, telefone, endereco, estado);
                     this.getSocios().add(novoSocioSenior);
                     break loop;
                 case "3":
-                    SocioElite novoSocioElite = new SocioElite(nome, email, cpf, telefone, endereco, contribuicao, estado);
+                    SocioElite novoSocioElite = new SocioElite(nome, email, cpf, telefone, endereco, estado);
                     this.getSocios().add(novoSocioElite);
                     break loop;
                 default:
@@ -244,7 +249,8 @@ public class Sistema {
         for(Socio socio : this.getSocios()) {
             System.out.println("\tNome: " + socio.getNome() +
                     "\n\tTipo: " + socio.tipo() +
-                    "\n\tEstado: " + socio.getEstado());
+                    "\n\tEstado: " + socio.getEstado() +
+                    "\n\tContribuição: " + socio.getContribuicao());
         }
 
     }
@@ -256,6 +262,40 @@ public class Sistema {
             System.out.println("\tNome: " + funcionario.getNome() +
                     "\n\tTipo: " + funcionario.tipo() + "\n");
 
+        }
+
+    }
+
+    public void atualizarContribuicao() {
+
+        Scanner scanner = new Scanner(System.in);
+
+        loop: while(true) {
+            System.out.println("Digite o tipo de funcionário: \n" +
+                    "(1) - Júnior\n" +
+                    "(2) - Sênior\n" +
+                    "(3) - Elite\n");
+
+            String tipo = scanner.nextLine();
+
+            System.out.println("Digite o novo valor: ");
+
+            double valor = scanner.nextDouble();
+
+            switch (tipo) {
+                case "1":
+                    SocioJunior.setContribuicao(valor);
+                    break loop;
+                case "2":
+                    SocioSenior.setContribuicao(valor);
+                    break loop;
+                case "3":
+                    SocioElite.setContribuicao(valor);
+                    break loop;
+                default:
+                    System.out.println("Digite um tipo válido.");
+                    break;
+            }
         }
 
     }
