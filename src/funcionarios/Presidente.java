@@ -10,6 +10,6 @@ public class Presidente extends Funcionario {
 
     @Override
     public String tipo() {
-        return "funcionarios.Presidente";
+        return "Presidente";
     }
 }

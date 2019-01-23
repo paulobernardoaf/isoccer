@@ -10,6 +10,6 @@ public class Cozinheiro extends Funcionario {
 
     @Override
     public String tipo() {
-        return "funcionarios.Cozinheiro";
+        return "Cozinheiro";
     }
 }

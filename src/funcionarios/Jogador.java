@@ -15,7 +15,7 @@ public class Jogador extends Funcionario {
 
     @Override
     public String tipo() {
-        return "funcionarios.Jogador";
+        return "Jogador";
     }
 
     public String getTipo() {

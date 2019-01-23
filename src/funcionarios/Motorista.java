@@ -13,7 +13,7 @@ public class Motorista extends Funcionario {
 
     @Override
     public String tipo() {
-        return "funcionarios.Motorista";
+        return "Motorista";
     }
 
     public String getNumeroDeHabilitacao() {
