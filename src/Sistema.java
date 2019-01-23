@@ -1,9 +1,6 @@
-import abstrato.Funcionario;
-import abstrato.Socio;
+import abstrato.*;
 import funcionarios.*;
-import recursosFisicos.CentroDeTreinamento;
-import recursosFisicos.Estadio;
-import recursosFisicos.Onibus;
+import recursosFisicos.*;
 import socios.*;
 
 import java.util.ArrayList;
@@ -11,13 +8,13 @@ import java.util.Scanner;
 
 public class Sistema {
 
-    ArrayList<Jogador> jogadores = new ArrayList<>();
-    Tecnico tecnico = null;
-    ArrayList<Funcionario> funcionarios = new ArrayList<>();
-    ArrayList<Socio> socios = new ArrayList<>();
-    ArrayList<Onibus> todosOsOnibus = new ArrayList<>();
-    Estadio estadio = null;
-    CentroDeTreinamento centroDeTreinamento = null;
+    private ArrayList<Jogador> jogadores = new ArrayList<>();
+    private Tecnico tecnico = null;
+    private ArrayList<Funcionario> funcionarios = new ArrayList<>();
+    private ArrayList<Socio> socios = new ArrayList<>();
+    private ArrayList<Onibus> todosOsOnibus = new ArrayList<>();
+    private Estadio estadio = null;
+    private CentroDeTreinamento centroDeTreinamento = null;
 
     public boolean login() {
 
