@@ -86,7 +86,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que contivesse todas as informações que as classes: Socio Júnior, Sócio Sênior, Sócio Elite possuem em comum. <br>
-            <b>Solução</b>: <br> <a href="https://imgur.com/D6kmVuO"><img src="https://i.imgur.com/D6kmVuO.png" title="source: imgur.com" /></a> <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/qJG7Oiv"><img src="https://i.imgur.com/qJG7Oiv.png" title="source: imgur.com" /></a> <br>
 		    <b>Vantagens</b>: Fácil manutenção para as suas sub-classes. <br>
 		    <b>Desvantagens</b>: Nenhuma
         </p>
@@ -109,7 +109,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um advogado. <br>
-            <b>Solução</b>: Criar a classe Advogado. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/JvhjiSJ"><img src="https://i.imgur.com/JvhjiSJ.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -120,7 +120,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um cozinheiro. <br>
-            <b>Solução</b>: Criar a classe Cozinheiro. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/EOEvmuD"><img src="https://i.imgur.com/EOEvmuD.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -132,7 +132,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um jogador. <br>
-            <b>Solução</b>: Criar a classe Jogador. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/Tv1UjLS"><img src="https://i.imgur.com/Tv1UjLS.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -144,7 +144,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um médico. <br>
-            <b>Solução</b>: Criar a classe Medico. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/Kd3bVpZ"><img src="https://i.imgur.com/Kd3bVpZ.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -156,7 +156,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um motorista. <br>
-            <b>Solução</b>: Criar a classe Motorista. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/7Ajehcn"><img src="https://i.imgur.com/7Ajehcn.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -168,7 +168,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um preparador físico. <br>
-            <b>Solução</b>: Criar a classe PreparadorFisico. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/uQsIQS0"><img src="https://i.imgur.com/uQsIQS0.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -179,7 +179,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um presidente. <br>
-            <b>Solução</b>: Criar a classe Presidente. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/Pi9AuIH"><img src="https://i.imgur.com/Pi9AuIH.png" title="source: imgur.com" /></a> <br> 
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -190,7 +190,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um técnico. <br>
-            <b>Solução</b>: Criar a classe Tecnico. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/kWhBGwt"><img src="https://i.imgur.com/kWhBGwt.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -201,7 +201,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um centro de treinamento. <br>
-            <b>Solução</b>: Criar a classe CentroDeTreinamento. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/3dN6XBj"><img src="https://i.imgur.com/3dN6XBj.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -212,7 +212,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um estádio. <br>
-            <b>Solução</b>: Criar a classe Estadio. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/SJUyhg4"><img src="https://i.imgur.com/SJUyhg4.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -223,7 +223,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um ônibus. <br>
-            <b>Solução</b>: Criar a classe Onibus. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/3Rz6eEx"><img src="https://i.imgur.com/3Rz6eEx.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -234,7 +234,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um sócio-júnior. <br>
-            <b>Solução</b>: Criar a classe SocioJunior. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/XaHWlR0"><img src="https://i.imgur.com/XaHWlR0.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -245,7 +245,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um sócio-sênior. <br>
-            <b>Solução</b>: Criar a classe SocioSenior. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/aD1WSsJ"><img src="https://i.imgur.com/aD1WSsJ.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
@@ -256,7 +256,7 @@
     <div>
         <p>
             <b>Motivação</b>: Necessidade de criar uma classe que representasse um sócio-elite. <br>
-            <b>Solução</b>: Criar a classe SocioElite. <br>
+            <b>Solução</b>: <br> <a href="https://imgur.com/obf6mli"><img src="https://i.imgur.com/obf6mli.png" title="source: imgur.com" /></a> <br>
             <b>Vantagem</b>: Melhor manuntenção. <br>
             <b>Desvantagem</b>: Nenhuma.
         </p>
